@@ -3,19 +3,20 @@
 Smart contracts for **Giftworld (GFTW)** — the GiftoV3 relaunch token on BNB Smart Chain.
 Canonical spec is the published whitepaper at <https://giftov3.com/wallet/whitepaper/>.
 
-> ## ⚠️ Status: in testing — nothing is deployed
+> ## ✅ Deployed on BSC Mainnet — token live, pools unfunded, windows closed
 >
-> **No contract in this repository has been deployed to BNB Smart Chain, mainnet or testnet.**
-> There is no GFTW token address yet, no migration is open, and there is nothing to claim,
-> buy, or stake. Any address, airdrop, sale, or claim link presenting itself as GFTW today
-> is a scam.
+> **GFTW token is live on BNB Smart Chain mainnet.** Migration, staking, and vesting contracts
+> are built and tested but **not yet deployed** — they deploy after the audit with final windows.
+> The token holds the full 1B supply in the treasury Safe; nothing is in circulation.
 >
 > | | |
 > |---|---|
-> | Deployed | **No** — testnet run pending, then mainnet |
-> | Audited | **No** — independent audit is scheduled (whitepaper §11) |
-> | Addresses | Published here and in whitepaper §15 **only after** deployment + BscScan verification |
-> | Parameters | Windows and dates are not final; they are set at deployment |
+> | Deployed | **Yes — GFTW token on BSC mainnet `0xD3D2c5Ab093a6aBa53EAbEA005D4226113C837F6`** |
+> | Treasury Safe | `0xE26D92b34B8EB79d9B415605aAa46de47066a38B` (2-of-3, owners `0x5e3c…9818`, `0x917E…0605`, `0x3EF7…08B`, salt `44384351`) |
+> | Tx | `0x77711f65a7065384c71dcf88480f5266848c3483f27ea561212eee333105a829` block `0x6f8211f` |
+> | BscScan | [Token](https://bscscan.com/address/0xD3D2c5Ab093a6aBa53EAbEA005D4226113C837F6) · [Safe](https://bscscan.com/address/0xE26D92b34B8EB79d9B415605aAa46de47066a38B) · [Tx](https://bscscan.com/tx/0x77711f65a7065384c71dcf88480f5266848c3483f27ea561212eee333105a829) — verify source matches `051fe0e` |
+> | Audited | **No** — independent audit is post-deploy per handoff §1 (pools unfunded until criticals cleared) |
+> | Parameters | Registry/claim/staking windows not final; set at deployment |
 >
 > This code is published early and deliberately, so that the community and reviewers can
 > read it *before* it goes live rather than after. It is a work in progress and will change.
