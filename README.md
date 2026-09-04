@@ -13,8 +13,9 @@ Canonical spec is the published whitepaper at <https://giftov3.com/wallet/whitep
 > |---|---|
 > | Deployed | **Yes — GFTW token on BSC mainnet `0xD3D2c5Ab093a6aBa53EAbEA005D4226113C837F6`** |
 > | Treasury Safe | `0xE26D92b34B8EB79d9B415605aAa46de47066a38B` (2-of-3, owners `0x5e3c…9818`, `0x917E…0605`, `0x3EF7…08B`, salt `44384351`) |
+> | Pair WBNB/GFTW | `0x867cEb98260eF05Adce3A021FC66b90E7a276293` `15 GFTW +0.004615 WBNB` `Pancake V2 Router 0x10ED...024E` `tx 0xcb17bc82d71c97ba18f1aa9fcf9283418dc87f16598aef210d322b63a5282a88` |
 > | Tx | `0x77711f65a7065384c71dcf88480f5266848c3483f27ea561212eee333105a829` block `0x6f8211f` |
-> | BscScan | [Token](https://bscscan.com/address/0xD3D2c5Ab093a6aBa53EAbEA005D4226113C837F6) · [Safe](https://bscscan.com/address/0xE26D92b34B8EB79d9B415605aAa46de47066a38B) · [Tx](https://bscscan.com/tx/0x77711f65a7065384c71dcf88480f5266848c3483f27ea561212eee333105a829) — verify source matches `051fe0e` |
+> | BscScan | [Token](https://bscscan.com/address/0xD3D2c5Ab093a6aBa53EAbEA005D4226113C837F6) · [Safe](https://bscscan.com/address/0xE26D92b34B8EB79d9B415605aAa46de47066a38B) · [Pair](https://bscscan.com/address/0x867cEb98260eF05Adce3A021FC66b90E7a276293) · [Tx](https://bscscan.com/tx/0x77711f65a7065384c71dcf88480f5266848c3483f27ea561212eee333105a829) — verify source matches `051fe0e` |
 > | Audited | **No** — independent audit is post-deploy per handoff §1 (pools unfunded until criticals cleared) |
 > | Parameters | Registry/claim/staking windows not final; set at deployment |
 >
